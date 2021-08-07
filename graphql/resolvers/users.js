@@ -90,7 +90,6 @@ module.exports = {
       //create auth token
       const token = generateToken(res);
 
-      console.log(token);
       return {
         ...res._doc,
         id: res._id,
